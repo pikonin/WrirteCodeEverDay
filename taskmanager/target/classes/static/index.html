@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タスクマネージャー</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #task-list {
+            margin-top: 20px;
+        }
+        .task-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>タスクマネージャー</h1>
+    <input type="text" id="task-input" placeholder="新しいタスク">
+    <button id="add-task-button">追加</button>
+
+    <div id="task-list">
+        <!-- タスクがここに追加されます -->
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
